@@ -26,3 +26,19 @@ python "to do list.py"
  👤 Author
 
 Rimsha Sheraz — DecodeLabs Intern
+
+Task 2: Expense Tracker
+
+A simple console-based Expense Tracker application built with Python, where users can enter multiple expenses and get the running total. The program keeps track of the total amount spent until the user chooses to stop.
+
+**File:** `expense tracker.py`
+
+ Features
+- Enter expense amounts one by one
+- Displays the current running total after each entry
+- Validates input (rejects negative numbers and invalid text)
+- Type `done` to stop entering expenses and see the final total
+
+ How to Run
+```bash
+python "expense tracker.py"
