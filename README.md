@@ -23,9 +23,7 @@ This project demonstrates the fundamentals of Python programming through an inte
 ```bash
 python "to do list.py"
 
- 👤 Author
-
-Rimsha Sheraz — DecodeLabs Intern
+ 
 
 Task 2: Expense Tracker
 
@@ -42,3 +40,24 @@ A simple console-based Expense Tracker application built with Python, where user
  How to Run
 ```bash
 python "expense tracker.py"
+
+ Task 3: Secure Password Generator
+
+A cryptographically secure password generator built with Python. It uses the `secrets` module (instead of `random`) to generate strong, unpredictable passwords, and calculates the password's entropy to mathematically demonstrate its strength.
+
+**File:** `password_generator.py`
+
+ Features
+- Validates user input to ensure a minimum password length of 8 characters
+- Generates passwords using letters (uppercase & lowercase) and digits
+- Uses `secrets.choice()` for cryptographically secure randomness (safer than the standard `random` module)
+- Efficient string building using `.join()` for optimal performance
+- Calculates and displays password entropy (in bits) using the formula `E = L × log2(R)`, where L is password length and R is the character pool size
+
+ How to Run
+```bash
+python password_generator.py
+
+👤 Author
+
+Rimsha Sheraz — DecodeLabs Intern
